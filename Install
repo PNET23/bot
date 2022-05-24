@@ -12,7 +12,7 @@
     rm -rf $HOME/BOT/botssh
     wget https://raw.githubusercontent.com/Onumb/Onumbssh/main/botssh >/dev/null 2>&1
     rm -rf $HOME/ShellBot.sh
-    wget https://raw.githubusercontent.com/Onumb/Onumbssh/main/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/PNET23/BOT-SSH/main/Shellbot.sh
     chmod 777 botssh 
     chmod 777 ShellBot.sh
     echo ""
