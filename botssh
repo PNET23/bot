@@ -39,7 +39,7 @@ criarteste() {
     usuario=$(echo SSH$(( RANDOM% + 250 )))
     senha=$((RANDOM% + 999999))
     limite='1'
-    tempo='6'
+    tempo='10'
     tuserdate=$(date '+%C%y/%m/%d' -d " +2 days")
     useradd -M -N -s /bin/false $usuario -e $tuserdate > /dev/null 2>&1
     (echo "$senha";echo "$senha") | passwd $usuario > /dev/null 2>&1
