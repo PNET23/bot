@@ -21,7 +21,7 @@ menu() {
         msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         msg+="<b>👇🏽 DISPONIBILIZAMOS SOMENTE 👇🏽</b>\n"
         msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        msg+="<b> 🟣 VIVO 🔵 TIM</b>\n"
+        msg+="<b>🟣 VIVO 🔵 TIM</b>\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
